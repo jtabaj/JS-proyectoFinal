@@ -1,4 +1,4 @@
-Esta app es parte del aprendizaje realizado en el curso Fron end de Talento Tech de GCABA
+Esta app es parte del aprendizaje realizado en el curso Front end de Talento Tech de GCABA
 consisten en un Proyecto Final de E-commerce
 
 inclueye:
