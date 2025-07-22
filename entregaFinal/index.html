@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Napolitana</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="contenedor-logo">
+        <img
+          class="logo"
+          src="./img/logo.png"
+          alt="Logo de la página"
+        />
+      </div>
+      <div class="contenedor-titulo">
+        <h1 class="titulo">Pizza Napolitana</h1>
+        <h2>Conociéndonos</h2>
+      </div>
+      <div class="contenedor-nav">
+        <nav class="nav">
+          <ul class="menu">
+            <li>
+              <a href="./index.html"><i class="fa-solid fa-house"></i></a>
+            </li>
+            <li><a href="./menu.html">Nuestro Menú</a></li>
+            <li><a href="./resenias.html">Reseñas</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+            <li><a class="nav-link" href="./ubicacion.html">Ubicación</a></li>
+            <li>
+              <a href="./menu.html" id="icono-carrito" class="carrito-icono">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="contador-carrito" class="contador-carrito">0</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+  
+ <main>
+    <section class="bienvenida">
+      <h1>Mi Pizzería Napolitana</h1>
+      <p>¡Bienvenidos a nuestra casa, donde la tradición napolitana cobra vida en cada pizza! En nuestra pizzería, el
+        sabor auténtico comienza con la mejor materia prima: tomates San Marzano, mozzarella fior di latte, harina
+        italiana de la más alta calidad y aceite de oliva virgen extra. Cada ingrediente es seleccionado cuidadosamente
+        para garantizar un resultado excepcional en cada bocado</p>
+
+
+      <div class="mi-flex">
+        <p>El corazón de nuestra cocina es un horno napolitano traído directamente de Italia, construido con piedra
+          volcánica del Vesubio. Su fuego intenso y envolvente alcanza temperaturas perfectas para lograr una pizza de
+          borde aireado, base delgada y ese característico sabor ahumado que distingue a una verdadera pizza napolitana.
+          <br><br>
+          Gracias a la altísima temperatura del horno —que supera los 450 °C— la pizza se cocina en apenas 90 segundos,
+          sellando los sabores y generando una textura única: crujiente en el borde, tierna en el centro. Esta cocción
+          exprés no solo preserva la frescura de los ingredientes, sino que también aporta ese inconfundible aroma a
+          leña que solo se logra con fuego vivo y técnica precisa.
+          <br><br>
+          Al frente del arte pizzero está el famoso<strong> Maestro Pizzaiolo Martín B</strong>, cuya experiencia y
+          pasión por la pizza se sienten en cada masa que prepara y en cada pizza que sirve. Formado en las mejores
+          escuelas de Nápoles y con años de trabajo en hornos europeos, Martín combina técnica, respeto por la tradición
+          y creatividad en cada receta.
+        </p>
+
+        <iframe  width="300" height="300" src="https://www.youtube.com/embed/15bNL4dcQCk"
+          title="Pizza Estilo Napolitano 🍕" 
+          allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+      </div>
+
+      <div class="mi-flex">
+        <img id="img-gente" src="./img/gente-comiendo.jpg" alt="gente comiendo pizza">
+        <p>Porque sabemos que una gran comida se disfruta aún más con una atención cálida y dedicada, nuestro equipo de salón está listo para recibirte con una sonrisa, sugerirte el maridaje perfecto y hacer de tu visita una experiencia inolvidable. Acá no solo servimos pizzas: compartimos momentos.
+          <br><br>
+          <strong>En nuestra pizzería, cada noche es una celebración de la buena comida y la buena compañía.</strong><br><br>
+Desde el primer saludo hasta el último brindis, cuidamos cada detalle para que te sientas como en casa. Nos apasiona ofrecer un servicio atento pero relajado, donde cada mesa tiene su ritmo y cada comensal se va con ganas de volver. </p>
+      </div>
+    </section>
+  </main>
+
+    <script src="./carrito.js"></script>
+    <footer class="footer">
+      <div class="iconos">
+        <a href="https://www.instagram.com/"
+          ><i class="fa-brands fa-instagram"></i      ></a>
+        <a href="https://www.tiktok.com/es/"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+        <a href="https://web.telegram.org/"
+          ><i class="fa-brands fa-telegram"></i
+        ></a>
+        <a href="https://x.com/"><i class="fa-brands fa-x"></i></a>
+      </div>
+      <div>
+        <p>© 2025 Mi Tienda Online</p>
+      </div>
+    </footer>
+  </body>
+</html>

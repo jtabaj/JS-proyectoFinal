@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Napolitana</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="grid-container">
+      <header class="header">
+        <div class="contenedor-logo">
+          <img
+            class="logo"
+            src="./img/logo.png"
+            alt="Logo de la página"
+          />
+        </div>
+        <div class="contenedor-titulo">
+          <h1 class="titulo">Pizza Napolitana</h1>
+          <h2>Nuestros Menú</h2>
+        </div>
+        <div class="contenedor-nav">
+          <nav class="nav">
+            <ul class="menu">
+              <li>
+                <a href="./index.html"><i class="fa-solid fa-house"></i></a>
+              </li>
+              <li><a href="./menu.html">Nuestro Menú</a></li>
+              <li><a href="./resenias.html">Reseñas</a></li>
+              <li><a href="/contacto.html">Contacto</a></li>
+              <li><a class="nav-link" href="./ubicacion.html">Ubicación</a></li>
+              <li>
+                <a href="#" id="icono-carrito" class="carrito-icono">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <span id="contador-carrito" class="contador-carrito">0</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="grid-productos-main">
+        <div class="contenedor-productos" id="productos-grid-container">
+          <section
+            class="producto"
+            data-id="p1"
+            data-title="Albahaca"
+            data-price="18700"
+            data-image="Imagen-Productos/Imagen1.png"
+          >
+            <img src="./img/albahaca.jpeg" alt="Albahaca" />
+            <h3>Albahaca</h3>
+            <p class="card-text">
+              Fresca y aromática, la albahaca realza el sabor clásico de la
+              pizza Margherita.
+            </p>
+
+            <p class="precio">$18.700</p>
+            <button class="boton-comprar">Añadir al Carrito</button>
+          </section>
+
+          <section
+            class="producto"
+            data-id="p2"
+            data-title="Cebolla"
+            data-price="27000"
+          >
+            <img src="./img/cebolla.jpg" alt="Cebolla" />
+            <h3>Cebolla</h3>
+            <p class="card-text">
+              Dulce y caramelizada, aporta un toque suave y sabroso a cada
+              porción.
+            </p>
+            <p class="precio">$27.000</p>
+            <button class="boton-comprar">Añadir al Carrito</button>
+          </section>
+
+          <section
+            class="producto"
+            data-id="p3"
+            data-title="Jamón"
+            data-price="24000"
+          >
+            <img src="./img/jamon.avif" alt="Jamón" />
+            <h3>Jamón</h3>
+            <p class="card-text">
+              Clásico italiano: jamón cocido de alta calidad que aporta suavidad
+              y profundidad.
+            </p>
+            <p class="precio">$24.000</p>
+            <button class="boton-comprar">Añadir al Carrito</button>
+          </section>
+
+          <section
+            class="producto"
+            data-id="p4"
+            data-title="Peperonni"
+            data-price="21500"
+          >
+            <img src="./img/peperonni.jpg" alt="Peperonni" />
+            <h3>Peperonni</h3>
+            <p class="card-text">
+              Intenso y levemente picante, para los que buscan una pizza con
+              personalidad.
+            </p>
+            <p class="precio">$21.500</p>
+            <button class="boton-comprar">Añadir al Carrito</button>
+          </section>
+
+          <section
+            class="producto"
+            data-id="p5"
+            data-title="Rúcula"
+            data-price="19800"
+          >
+            <img src="./img/rucula.webp" alt="Rúcula" />
+            <h3>Rúcula</h3>
+            <p class="card-text">
+              Fresca y levemente picante, ideal para quienes disfrutan los
+              contrastes de sabor.
+            </p>
+            <p class="precio">$19.800</p>
+            <button class="boton-comprar">Añadir al Carrito</button>
+          </section>
+
+          <section
+            class="producto"
+            data-id="p6"
+            data-title="Pesto"
+            data-price="29200"
+          >
+            <img src="./img/pesto.webp" alt="Pesto" />
+            <h3>Pesto</h3>
+            <p class="card-text">
+              Fresca y levemente picante, ideal para quienes disfrutan los
+              contrastes de sabor.
+            </p>
+            <p class="precio">$29.200</p>
+            <button class="boton-comprar">Añadir al Carrito</button>
+          </section>
+
+          <section
+            class="producto"
+            data-id="p7"
+            data-title="Tomate"
+            data-price="19400"
+            data-image="Imagen-Productos/Imagen7.png"
+          >
+            <img src="./img/tomate.jpg" alt="Tomate" />
+            <h3>Tomate</h3>
+            <p class="card-text">
+              El alma de la pizza: tomates italianos frescos que aportan dulzura
+              y acidez equilibradas.
+            </p>
+            <p class="precio">$19.400</p>
+            <button class="boton-comprar">Añadir al Carrito</button>
+          </section>
+        </div>
+      </main>
+
+      <div id="modal-carrito" class="modal">
+        <div class="modal-contenido">
+          <span class="cerrar-modal">&times;</span>
+          <h2>Tu Pedido</h2>
+          <div id="lista-carrito"></div>
+          <div id="total-carrito">Total: $0.00</div>
+          <div class="botones-carrito">
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+            <button id="pagar">Pagar</button>
+          </div>
+        </div>
+      </div>
+
+      <script src="./carrito.js"></script>
+
+      <footer class="footer">
+        <div class="iconos">
+          <a href="https://www.instagram.com/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.tiktok.com/es/"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+          <a href="https://web.telegram.org/"
+            ><i class="fa-brands fa-telegram"></i
+          ></a>
+          <a href="https://x.com/"><i class="fa-brands fa-x"></i></a>
+        </div>
+        <div>
+          <p>© 2025 Mi Tienda Online</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
